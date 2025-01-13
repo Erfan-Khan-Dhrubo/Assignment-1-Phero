@@ -519,5 +519,26 @@ td {
 /* Ending Opinion */
 
 /* Footer */
+footer {
+  width: 100%;
+  background-color: white;
+}
 
+.footer-ds {
+  padding: 50px 160px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.footer-p {
+  font-size: 32px;
+  font-weight: bold;
+}
 /* Ending Footer */
