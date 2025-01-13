@@ -63,12 +63,12 @@ body {
   width: 100%;
 }
 
-.future h3 {
+.future-up h3 {
   font-size: 40px;
   font-weight: bold;
 }
 
-.future-p {
+.future-up p {
   font-size: 16px;
   opacity: 0.7;
 }
@@ -129,6 +129,36 @@ body {
   background-color: #d3d3d3;
   color: black;
 }
+
+.quote {
+  width: 100%;
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px 48px;
+  box-sizing: border-box;
+
+  background-image: url("../assets/quote-bg.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-position: 48px 13px;
+}
+
+.quote-up p {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.quote-down p {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.quote-down h3 {
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
 /* Ending The Vision of Future */
 
 /* News */
