@@ -80,7 +80,6 @@ body {
 
 .card-body {
   width: 412.57px;
-  height: 325px;
   background-color: lightblue;
   padding: 32px;
   border-radius: 16px;
@@ -128,35 +127,6 @@ body {
 #b3:hover {
   background-color: #d3d3d3;
   color: black;
-}
-
-.quote {
-  width: 100%;
-  background-color: white;
-  border-radius: 16px;
-  padding: 24px 48px;
-  box-sizing: border-box;
-
-  background-image: url("../assets/quote-bg.png");
-  background-position: left top;
-  background-repeat: no-repeat;
-  background-position: 48px 13px;
-}
-
-.quote-up p {
-  font-size: 16px;
-  opacity: 0.8;
-}
-
-.quote-down p {
-  font-size: 16px;
-  opacity: 0.6;
-}
-
-.quote-down h3 {
-  font-size: 20px;
-  font-weight: 600;
-  opacity: 0.8;
 }
 
 /* Ending The Vision of Future */
@@ -375,3 +345,134 @@ body {
 .btn-hover:hover {
   background-color: #009f7e;
 }
+
+/* Starting Quote */
+
+.quote {
+  width: 100%;
+  background-color: white;
+  border-radius: 16px;
+  padding: 24px 48px;
+  box-sizing: border-box;
+
+  background-image: url("../assets/quote-bg.png");
+  background-position: left top;
+  background-repeat: no-repeat;
+  background-position: 48px 13px;
+}
+
+.quote-up p {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.quote-down p {
+  font-size: 16px;
+  opacity: 0.6;
+}
+
+.quote-down h3 {
+  font-size: 20px;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+/* Ending Quote */
+
+/* Pillars of "Bangladesh 2.0 */
+
+.pillar {
+  width: 100%;
+}
+
+.pillar-box {
+  width: 302px;
+  background-color: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-sizing: border-box;
+}
+
+.pillar-box p {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.pillar-box h4 {
+  font-size: 20px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.pillar-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pillar-h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Ending  Pillars of "Bangladesh 2.0*/
+
+/* Opinion */
+.opinion {
+  width: 100%;
+}
+
+.op-table {
+  width: 100%;
+  background-color: white;
+  padding: 32px;
+  border-radius: 16px;
+}
+
+.op-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.op-table th,
+td {
+  border: 1px solid #f5f5f5;
+  padding: 24px;
+}
+
+.ho {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.op-table th {
+  background-color: #c6e4d6;
+}
+
+.dropdown {
+  padding: 5px;
+  font-size: 14px;
+  background-color: #c6e4d6;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+.cn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.opinion .ds {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.opinion h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Ending Opinion */
