@@ -13,6 +13,47 @@ body {
   width: 1280px;
 }
 
+/* Navbar */
+
+nav {
+  width: 100%;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.nav-btn {
+  width: 116px;
+  height: 52px;
+  padding: 30px 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 2px solid #006a50;
+  color: #006a50;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.nav-btn:hover {
+  background-color: #009f7e;
+  color: black;
+}
+
+/* Ending Navbar */
+
 /* Banner */
 .banner {
   display: flex;
@@ -476,3 +517,7 @@ td {
 }
 
 /* Ending Opinion */
+
+/* Footer */
+
+/* Ending Footer */
