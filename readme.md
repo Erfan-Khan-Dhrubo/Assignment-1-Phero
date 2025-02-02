@@ -39,10 +39,6 @@ This repository contains the code for my webpage, built using HTML and CSS. Belo
 
 ![Donate](./UI/donate.png)
 
-## Challenges
-- A minimum of five commits were made to ensure incremental progress.
-- No placeholder text (e.g., Lorem Ipsum). All content is meaningful and relevant.
-
 ## 5. Newsletter Section
 - A clean and functional design for newsletter subscriptions:
   - **Background Color**: Sets it apart visually.
